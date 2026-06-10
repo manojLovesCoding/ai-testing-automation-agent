@@ -1,0 +1,25 @@
+Points to Remember: npx drizzle-kit push
+Synchronizes schema → database
+Updates the database to match your latest Drizzle schema definitions.
+No migration files are created
+Changes are applied directly to the database.
+Good for development
+Fast and convenient while building and testing locally.
+Compares current schema with database
+Detects differences and generates the necessary SQL automatically.
+Executes changes immediately
+Tables, columns, indexes, etc. are updated in the database right away.
+Use caution in production
+Teams often prefer migrations because they provide version history and better control.
+Easy way to remember
+
+push = Push schema changes directly to the database.
+
+
+
+
+
+
+
+
+------------------------------------------------------------
